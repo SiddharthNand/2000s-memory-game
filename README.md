@@ -7,7 +7,7 @@
 
 ## Wireframe
 
-![2000s Memory Game](img/Wireframe.png) 
+![2000s Memory Game](img/Wireframe.png)
 ![50 Cent](img/50%20Cent.jpg) (https://upload.wikimedia.org/wikipedia/en/9/9d/Get_Rich_Or_Die_Tryin%27.JPG)
 
 ![Bow Wow](img/Bow%20Wow.jpg) (https://upload.wikimedia.org/wikipedia/en/2/22/Wanted_album_cover.jpg)
