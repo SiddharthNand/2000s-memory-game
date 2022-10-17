@@ -1,10 +1,24 @@
 body {
     margin: 0;
     background-color: antiquewhite;
+    height: 100vh;
 }
 
 h1 {
     text-align: center;
+}
+
+button {
+        text-align: center;
+        color: red;
+        background-color: white;
+        border: groove black 2px;
+        height:20px; 
+        width:100px; 
+        margin: -20px -50px; 
+        position:relative;
+        top: 1%;
+        left:50%;
 }
 
 .clicks {
@@ -21,6 +35,7 @@ h1 {
     text-align: center;
     color: lime;
 }
+
 
 .gameBoard {
     display: grid;
@@ -141,3 +156,19 @@ h1 {
     height: 102px;
     width: 102px;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    bottom: 0; 
+    position: fixed;
+    
+}
+
+.test {
+    height: 100%;
+}
+
