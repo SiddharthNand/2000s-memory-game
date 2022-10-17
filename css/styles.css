@@ -1,3 +1,143 @@
 body {
-    background-color: red;
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+}
+
+.clicks {
+    text-align: center;
+    color: red;
+}
+
+.rPairs{
+    text-align: center;
+    color: aqua;
+}
+
+.gamesPlayed{
+    text-align: center;
+    color: lime;
+}
+
+.gameBoard {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: repeat(4, 1fr); */
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    gap: 10px 10px;
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr; 
+    gap: 12px 12px; 
+    grid-template-areas: 
+      ". . . ."
+      ". . . ."
+      ". . . ."
+      ". . . ."; 
+    padding-top: 50px;
+  }
+  
+.cell1 {
+    content: url(https://upload.wikimedia.org/wikipedia/en/b/b1/Ja-rule-pain-is-love.jpg);
+    height: 102px;
+    width: 102px;
+}
+
+.cell2 {
+    content: url(https://upload.wikimedia.org/wikipedia/en/2/22/Wanted_album_cover.jpg);
+    height: 102px;
+    width: 102px;
+}
+
+.cell3 {
+    content: url(https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Chris_brown.jpg/220px-Chris_brown.jpg);
+    height: 102px;
+    width: 102px;
+}
+
+.cell4 {
+    content: url(https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/In_my_own_words_Ne-Yo.jpg/220px-In_my_own_words_Ne-Yo.jpg);
+    height: 102px;
+    width: 102px;
+}
+
+.cell5 {
+    content: url(https://upload.wikimedia.org/wikipedia/en/9/9d/Get_Rich_Or_Die_Tryin%27.JPG);
+    height: 102px;
+    width: 102px;
+}
+
+.cell6 {
+    content: url(https://upload.wikimedia.org/wikipedia/en/d/d3/T-Pain_-_Rappa_Ternt_Sanga.jpg);
+    height: 102px;
+    width: 102px;
+}
+
+.cell7 {
+    content: url(https://upload.wikimedia.org/wikipedia/en/7/74/Usher_-_Confessions_album_cover.jpg);
+    height: 102px;
+    width: 102px;
+}
+
+.cell8 {
+    content: url(https://upload.wikimedia.org/wikipedia/en/f/fc/Bluestars_%28Pretty_Ricky_album%29.jpg);
+    height: 102px;
+    width: 102px;
+}
+
+.cell9 {
+    content: url(https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/In_my_own_words_Ne-Yo.jpg/220px-In_my_own_words_Ne-Yo.jpg);
+    height: 102px;
+    width: 102px;
+}
+
+.cell10 {
+    content: url(https://upload.wikimedia.org/wikipedia/en/f/fc/Bluestars_%28Pretty_Ricky_album%29.jpg);
+    height: 102px;
+    width: 102px;
+}
+
+.cell11 {
+    content: url(https://upload.wikimedia.org/wikipedia/en/2/22/Wanted_album_cover.jpg);
+    height: 102px;
+    width: 102px;
+}
+
+.cell12 {
+    content: url(https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Chris_brown.jpg/220px-Chris_brown.jpg);
+    height: 102px;
+    width: 102px;
+}
+
+.cell13 {
+    content: url(https://upload.wikimedia.org/wikipedia/en/7/74/Usher_-_Confessions_album_cover.jpg);
+    height: 102px;
+    width: 102px;
+}
+
+.cell14 {
+    content: url(https://upload.wikimedia.org/wikipedia/en/b/b1/Ja-rule-pain-is-love.jpg);
+    height: 102px;
+    width: 102px;
+}
+
+.cell15 {
+    content: url(https://upload.wikimedia.org/wikipedia/en/d/d3/T-Pain_-_Rappa_Ternt_Sanga.jpg);
+    height: 102px;
+    width: 102px;
+}
+
+.cell16 {
+    content: url(https://upload.wikimedia.org/wikipedia/en/9/9d/Get_Rich_Or_Die_Tryin%27.JPG);
+    height: 102px;
+    width: 102px;
 }
