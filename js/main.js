@@ -8,7 +8,8 @@ let firstAlbumMatch
 // Functions
 
 const onAlbumClicked = function (event) {
-    
+ 
+    flipAlbum(event.target)
 }
 
 

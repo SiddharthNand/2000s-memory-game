@@ -24,16 +24,22 @@ button {
 .clicks {
     text-align: center;
     color: red;
+    font-family: "Permanent Marker", cursive;
+    font-size: 24px;
 }
 
 .rPairs{
     text-align: center;
     color: aqua;
+    font-family: "Permanent Marker", cursive;
+    font-size: 24px;
 }
 
 .gamesPlayed{
     text-align: center;
     color: lime;
+    font-family: "Permanent Marker", cursive;
+    font-size: 24px;
 }
 
 
