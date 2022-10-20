@@ -1,46 +1,29 @@
-// Select Elements
-const albums  = document.querySelectorAll('.album-card')
+//Elements
+const albums  = document.querySelectorAll('.albumCell')
 
-let isFirstSameAlbumClicked = false
-
-let firstPairAlbum
-
-// Functions 
+//Functions
 const onAlbumClicked = function (event) {
   flipAlbum(event.target)
-if(isFirstSameAlbumClicked === true) {
-  if (event.target !== firstPairAlbum){
-    if (event.target.textContent.trim() === firstPairAlbum.textContent.trim()) {
-      console.log('found match')
-      event.target.classList.add('matched-album')
-      firstPairAlbum.classList.add('matched-album')
-    } else {
-      setTimeout(function () {
-        flipAlbumBack(firstPairAlbum)
-      }, 2000)
-  }
-}
+  
 
-  isFirstSameAlbumClicked = false
-} else {
-  isFirstSameAlbumClicked = true
-  firstPairAlbum = event.target
-}
-  // console.log(isFirstAlbumClicked)
-  // isFirstAlbumClicked = true
-  // console.log(isFirstAlbumClicked)
-}
+  setTimeout(function () {
+    flipAlbumBack(event.target)
+    }, 2000)
+  }
 
 const flipAlbum = function (album) {
-  album.classList.remove('back-face')
+  album.classList.remove('albumBack')
 }
  
 const flipAlbumBack = function (album) {
-  album.classList.add('back-face')
+  album.classList.add('albumBack')
 }
 
-// Attach event listeners
 
+
+
+
+//Event listeners
 albums.forEach(function (album) {
   album.addEventListener('click', onAlbumClicked)
 })

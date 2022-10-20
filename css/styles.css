@@ -43,80 +43,40 @@ h1 {
         left: 40%;
 }
 
-.clicks {
-    text-align: center;
-    color: #0000FF;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-}
-
-.rPairs{
-    text-align: center;
-    color: #0000FF;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-}
-
-.gamesPlayed{
-    text-align: center;
-    color: #0000FF;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-}
-
 .memory-game {
     width: 750px;
     height: 600px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 30px;
+    padding-top: 50px;
 }
   
-.album-card {
+.albumCell {
     width: calc(25% - 10px);
     height: calc(33.333% - 10px);
     margin: 5px;
     position: relative;
-    transform: scale(1);
-    transform-style: preserve-3d;
-    transition: transform .5s;
 }
-  
-.album-card:active {
-    transform: scale(0.97);
-    transition: transform .2s;
-}
-  
-.album-card.flip {
-    transform: rotateY(180deg);
-}
-  
-.front-face {
+   
+.albumFront {
     width: 100%;
     height: 100%;
-    padding: 2px;
+    padding: 5px;
     position: absolute;
-    background: orangered;
+    background: black;
     backface-visibility: hidden;
     object-fit: cover;
 }
-.back-face {
-    width: 100%;
-    height: 100%;
-    padding: 2px;
-    position: absolute;
-    background: orangered;
-    backface-visibility: hidden;
-    object-fit: cover;
-}
-  
-.front-face {
-    transform: rotateY(180deg);
-}  
 
-.matched-album {
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b1/LimeWire.png) ;
+.albumBack {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    position: absolute;
+    background: orangered;
+    backface-visibility: hidden;
+    object-fit: cover;
 }
 
 
@@ -124,10 +84,3 @@ h1 {
 .test {
     height: 100%;
 }
-
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: #C0C0C0;
-
-    }
-  }
