@@ -9,15 +9,17 @@ let firstPairAlbum
 const onAlbumClicked = function (event) {
   flipAlbum(event.target)
 if(isFirstSameAlbumClicked === true) {
-  if (event.target.textContent.trim() === firstPairAlbum.textContent.trim()) {
-    console.log('found match')
-    event.target.classList.add('matched-album')
-    firstPairAlbum.classList.add('matched-album')
-  } else {
-    setTimeout(function () {
-      flipAlbumBack(firstPairAlbum)
-    }, 2000)
+  if (event.target !== firstPairAlbum){
+    if (event.target.textContent.trim() === firstPairAlbum.textContent.trim()) {
+      console.log('found match')
+      event.target.classList.add('matched-album')
+      firstPairAlbum.classList.add('matched-album')
+    } else {
+      setTimeout(function () {
+        flipAlbumBack(firstPairAlbum)
+      }, 2000)
   }
+}
 
   isFirstSameAlbumClicked = false
 } else {
@@ -42,3 +44,7 @@ const flipAlbumBack = function (album) {
 albums.forEach(function (album) {
   album.addEventListener('click', onAlbumClicked)
 })
+
+
+
+
