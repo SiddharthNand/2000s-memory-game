@@ -3,24 +3,76 @@
     margin: 0;
     box-sizing: border-box;
 }
+  
 body {
     margin: 0;
     background-color: #C0C0C0;
     height: 100vh;
+}
 
+h1 {
+    text-align: center;
+    animation: heartBeat;
+    animation-duration: 200s;
+    padding-top: 30px;
+}
+
+.resetBut {
+        text-align: center;
+        color: red;
+        background-color: #C0C0C0;
+        border: groove black 2px;
+        height:30px; 
+        width:100px; 
+        margin: -20px -50px; 
+        position:relative;
+        top: 2%;
+        left:60%;
+}
+
+.playlist {
+    text-align: center;
+        color: red;
+        background-color: #C0C0C0;
+        border: groove black 2px;
+        height:30px; 
+        width:100px; 
+        margin: -20px -50px; 
+        position:relative;
+        top: 2%;
+        left: 40%;
+}
+
+.clicks {
+    text-align: center;
+    color: #0000FF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.rPairs{
+    text-align: center;
+    color: #0000FF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.gamesPlayed{
+    text-align: center;
+    color: #0000FF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
 
 .memory-game {
-    width: 640px;
-    height: 640px;
+    width: 750px;
+    height: 600px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    perspective: 1000px;
-    padding-top: 40px;
-    padding-bottom: 50px;
-  }
-
+    padding-top: 30px;
+}
+  
 .album-card {
     width: calc(25% - 10px);
     height: calc(33.333% - 10px);
@@ -29,109 +81,41 @@ body {
     transform: scale(1);
     transform-style: preserve-3d;
     transition: transform .5s;
-    
-  }
-
+}
+  
+.album-card:active {
+    transform: scale(0.97);
+    transition: transform .2s;
+}
+  
 .album-card.flip {
     transform: rotateY(180deg);
-  }
+}
   
-  .front-face,
-  .back-face {
+.front-face,
+.back-face {
     width: 100%;
     height: 100%;
-    padding: 20px;
+    padding: 2px;
     position: absolute;
-    border-radius: 1px;
-    background:  radial-gradient(circle, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background: orangered;
     backface-visibility: hidden;
-  }
+    object-fit: cover;
+}
   
 .front-face {
     transform: rotateY(180deg);
-  }
-
-h1 {
-    text-align: center;
-    animation: heartBeat;
-    animation-duration: 200s;
-    padding-top: 20px;
-}
-
-button {
-        text-align: center;
-        color: #0000ff;
-        background-color: white;
-        border: groove black 2px;
-        height:20px; 
-        width:100px; 
-        margin: -20px -50px; 
-        position:relative;
-        top: 2%;
-        left:50%;
-        
-}
-
-.clicks {
-    text-align: center;
-    color: #0000FF;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-}
-
-.rPairs{
-    text-align: center;
-    color: #0000FF;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-}
-
-.gamesPlayed{
-    text-align: center;
-    color: #0000FF;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-}
+}  
 
 
-.gameBoard {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    gap: 10px 10px;
-    width: 350px;
-    height: 350px;
-    margin: auto;
-    text-align: center;
-    justify-content: center;
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr 1fr; 
-    /* grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;  */
-    gap: 12px 12px; 
-    grid-template-areas: 
-      ". . . ."
-      ". . . ."
-      ". . . ."
-      ". . . ."; 
-    padding-top: 50px;
-  }
-
-  
-
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    text-align: center;
-    bottom: 0; 
-    position: fixed;
-    
-}
 
 .test {
     height: 100%;
 }
 
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: #C0C0C0;
 
+    }
+  }
