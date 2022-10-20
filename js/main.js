@@ -1,25 +1,27 @@
 // Select Elements
-const card  = document.querySelector('.album-card')
+const albums  = document.querySelectorAll('.album-card')
 
 // Functions 
-const onCardClicked = function (event) {
+const onAlbumClicked = function (event) {
   console.log(event.target)
   
-  flipCard(event.target)
+  flipAlbum(event.target)
   
   setTimeout(function () {
-    flipCardBack(event.target)
+    flipAlbumBack(event.target)
   }, 2000)
 }
 
-const flipCard = function (card) {
-  card.classList.remove('.back-face')
+const flipAlbum = function (album) {
+  album.classList.remove('.back-face')
 }
  
-const flipCardBack = function () {
-  card.classList.add('.back-face')
+const flipAlbumBack = function (album) {
+  album.classList.add('.back-face')
 }
 
 // Attach event listeners
-card.addEventListener('click', onCardClicked)
 
+albums.forEach(function (album) {
+  album.addEventListener('click', onAlbumClicked)
+})
