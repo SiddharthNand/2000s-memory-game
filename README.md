@@ -8,23 +8,23 @@ https://siddharthnand.github.io/2000s-memory-game/
 
 ## Wireframe
 
-![2000s Memory Game](img/Wireframe.png)
+![2000s Memory Game](images/Wireframe.png)
 
-![50 Cent](img/50%20Cent.jpg) (https://upload.wikimedia.org/wikipedia/en/9/9d/Get_Rich_Or_Die_Tryin%27.JPG)
+![50 Cent](images/50-Cent.jpg) (https://upload.wikimedia.org/wikipedia/en/9/9d/Get_Rich_Or_Die_Tryin%27.JPG)
 
-![Bow Wow](img/Bow%20Wow.jpg) (https://upload.wikimedia.org/wikipedia/en/2/22/Wanted_album_cover.jpg)
+![Bow Wow](images/Bow-Wow.jpg) (https://upload.wikimedia.org/wikipedia/en/2/22/Wanted_album_cover.jpg)
 
-![Chris Brown](img/Chris%20Brown.jpg) (https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Chris_brown.jpg/220px-Chris_brown.jpg)
+![Chris Brown](images/Chris-Brown.jpg) (https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Chris_brown.jpg/220px-Chris_brown.jpg)
 
-![Ja-Rule](img/Ja-Rule.jpg) (https://upload.wikimedia.org/wikipedia/en/b/b1/Ja-rule-pain-is-love.jpg)
+![Ja-Rule](images/Ja-Rule.jpg) (https://upload.wikimedia.org/wikipedia/en/b/b1/Ja-rule-pain-is-love.jpg)
 
-![Ne-Yo](img/Ne-Yo.jpg) (https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/In_my_own_words_Ne-Yo.jpg/220px-In_my_own_words_Ne-Yo.jpg)
+![Ne-Yo](images/Ne-Yo.jpg) (https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/In_my_own_words_Ne-Yo.jpg/220px-In_my_own_words_Ne-Yo.jpg)
 
-![Pretty Ricky](img/Pretty%20Ricky.jpg) (https://upload.wikimedia.org/wikipedia/en/f/fc/Bluestars_%28Pretty_Ricky_album%29.jpg)
+![Pretty Ricky](images/Pretty%20Ricky.jpg) (https://upload.wikimedia.org/wikipedia/en/f/fc/Bluestars_%28Pretty_Ricky_album%29.jpg)
 
-![T-Pain](img/T-Pain.jpg) (https://upload.wikimedia.org/wikipedia/en/d/d3/T-Pain_-_Rappa_Ternt_Sanga.jpg)
+![T-Pain](images/T-Pain.jpg) (https://upload.wikimedia.org/wikipedia/en/d/d3/T-Pain_-_Rappa_Ternt_Sanga.jpg)
 
-![Usher](img/Usher.jpg) (https://upload.wikimedia.org/wikipedia/en/7/74/Usher_-_Confessions_album_cover.jpg)
+![Usher](images/Usher.jpg) (https://upload.wikimedia.org/wikipedia/en/7/74/Usher_-_Confessions_album_cover.jpg)
 
 title font- https://fontmeme.com/permalink/221017/47d4de0b4de381bb4bdc6e82073c3861.png
 
