@@ -20,6 +20,7 @@ h1 {
 .resetBut {
         text-align: center;
         color: red;
+        font-size: 12px;
         background-color: #C0C0C0;
         border: groove black 2px;
         height:30px; 
@@ -33,6 +34,7 @@ h1 {
 .playlist {
     text-align: center;
         color: red;
+        font-size: 12px;
         background-color: #C0C0C0;
         border: groove black 2px;
         height:30px; 
