@@ -3,6 +3,9 @@
 ## Background 
 Chosen game: Memory game. While deciding what game to create, I was listening to a playlist i made years ago, and it sparked the idea of creating a 2000s r&b themed memory game with some of the popular artist of that era. 
 
+### Game
+https://siddharthnand.github.io/2000s-memory-game/
+
 ## Wireframe
 
 ![2000s Memory Game](img/Wireframe.png)
