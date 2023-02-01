@@ -41,8 +41,11 @@ albums.forEach(function (album) {
   album.addEventListener('click', onAlbumClicked)
 })
 
-
-
-
-
+const shuffle = function () {
+  albums.forEach(function (album) {
+    let randomIndex = Math.floor(Math.random() * albums.length)
+    album.parentNode.insertBefore(album, albums[randomIndex])
+  })
+}
+shuffle ()
 
